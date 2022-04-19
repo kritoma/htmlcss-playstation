@@ -1,0 +1,40 @@
+/* button */
+.btn_login{
+    background-color: #363636;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+
+}
+
+/* header */
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.header_top{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.header_top img{
+    height: 20px;
+}
+
+.play-logo{
+    margin-right: 15px;
+}
+
+.navbar-nav, .header_bottom .d-flex{
+    gap: 10px;
+    align-items: center;
+}
+
+header .lens{
+    height: 30px;
+    margin: 0 20px;
+}
+
