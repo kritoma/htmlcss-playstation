@@ -45,6 +45,22 @@ header{
     align-items: center;
 }
 
+.nav-item{
+    position: relative;
+}
+
+.header_bottom .chevron{
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    transform: translateY(-50%);
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
 header .lens{
     height: 30px;
     margin: 0 20px;
@@ -78,4 +94,43 @@ header .lens{
 /* play 5 */
 .play_5 img{
     width: 100%;
+}
+
+.opacity{
+    opacity: 0.5;
+    transition: opacity 0.25s;
+}
+
+.opacity:hover{
+    opacity: 1;
+    border-bottom: 2px solid #2d64e6;
+}
+
+.border_bottom{
+    border-bottom: 2px solid #2d64e6;
+}
+
+/* second hero */
+
+.second_hero_top{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+    color: white;
+}
+
+.second_hero_top img{
+    height: 350px;
+    padding-top: 100px;
+}
+
+.second_hero_bottom{
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.second_hero_bottom img{
+    width: 100%;
+    border-radius: 20px;
 }
