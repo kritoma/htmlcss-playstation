@@ -165,3 +165,22 @@ header .lens{
 .play_store img{
     width: 100%;
 }
+
+/* play now */
+
+.play_now{
+    background-color: #161c3b;
+    color: white;
+}
+
+.play_now .logo_now{    
+    height: 70px;
+}
+
+.play_now button{
+    color: black;
+}
+
+.play_now .img_now{
+    width: 100%;
+}
