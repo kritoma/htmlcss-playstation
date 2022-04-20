@@ -140,3 +140,22 @@ header .lens{
 .play_4 img{
     width: 100%;
 }
+
+
+/* play_plus */
+.play_plus{
+    background-color: #bebcbb;
+}
+
+.logo_plus{
+    height: 70px;
+}
+
+.img_plus{
+    width: 100%;
+}
+
+.play_plus button{
+    color: #2d64e6;
+    background-color: #d9dadc;
+}
