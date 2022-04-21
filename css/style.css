@@ -1,13 +1,20 @@
+/* typo */
+h2{
+    font-size: 3rem;
+}
+
 /* button */
 button{
     padding: 8px 15px;
-    border-radius: 20px;
-    border: none;
+    border-radius: 30px;
     color: white;
+    border: 2px solid transparent;
+    cursor: pointer;
 }
 
 .btn_login{
-    background-color: #363636;    
+    background-color: #363636;  
+    margin-left: 10px;  
 }
 
 .btn_buy{
@@ -16,6 +23,14 @@ button{
 
 .btn_info{
     background-color: #2d64e6;
+}
+
+button:hover{
+    box-shadow: inset 0 0 0 2px white;
+}
+
+.btn_buy:hover{
+    box-shadow: inset 0 0 0 2px black;
 }
 
 /* header */
@@ -55,6 +70,7 @@ header{
     top: 50%;
     right: -5px;
     transform: translateY(-50%);
+    fill: #999999
 }
 
 .dropdown-toggle::after{
@@ -86,9 +102,24 @@ header .lens{
     padding-top: 130px;
 }
 
+
 .hero_bottom img{
     width: 100%;
     border-radius: 10px;
+}
+
+.active_border{
+    border: outset 2px #2d64e6;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.up{
+    transition: transform 0.25s;
+}
+
+.up:hover{
+    transform: translateY(-15px);
 }
 
 /* play 5 */
@@ -161,6 +192,10 @@ header .lens{
     background-color: #d9dadc;
 }
 
+.play_plus button:hover{
+    box-shadow: inset 0 0 0 2px #bebcbb;
+}
+
 /* play store */
 
 .play_store img{
@@ -182,6 +217,10 @@ header .lens{
     color: black;
 }
 
+.play_now button:hover{
+    box-shadow: inset 0 0 0 2px #161c3b;
+}
+
 .play_now .img_now{
     width: 100%;
 }
@@ -195,6 +234,7 @@ header .lens{
 footer{
     background-color: #2d64e6;
     color: white;
+    padding: 20px;
 }
 
 footer img{
